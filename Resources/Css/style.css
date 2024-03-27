@@ -1,0 +1,149 @@
+body{
+    font-family:Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    
+}
+
+#header{
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+#logo{
+    height: 50px;
+    margin-left: 10px;
+}
+
+#navigation {
+    margin-right: 10px;
+}
+
+#navigation li {
+    display: inline;
+    margin-left: 20px;
+    color: seashell;
+    text-decoration: underline;
+}
+
+#mission{
+    position: relative;
+    top 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(../Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#mission-statement{
+    width: 1200px;
+    background-color: black;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+
+#featured{
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+#featured h2, #featured h4{
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+#featured-teas{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    
+}
+
+.tea-containers{
+    margin-bottom: 5px;
+    margin-right: 32px;
+}
+
+#locations{
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    top: 70px;
+    height: 550px;
+    width: 1200px;
+    background-image: url(../Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#locations h2{
+    margin-bottom: 15px;
+
+}
+
+#store-locations{
+    display:inline-flex;
+    justify-content: center;
+}
+
+.location-containers{
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    padding: 15px 0;
+    line-height: 2.5;
+    opacity: 0.9;
+}
+
+.location-containers:hover{
+    opacity: 1;
+}
+
+#contact{
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    margin-top: 10;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#footer{
+    position: relative;
+    top: 70px;
+    bottom: 0px;
+    text-align: left;
+    opacity: 0.9;
+
+}
+
+
+
+#footer h5 {
+    margin-left: 20px;
+    margin-bottom: 90px;
+    
+}
